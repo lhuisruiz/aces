@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     transition: 2s;
-    border: 0px solid red;
+
 }
 body{ 
     background-color: transparent;
@@ -36,6 +36,7 @@ a{
     padding: 10px 16px;
     cursor: pointer;
     color: #fff;
+    font-size: 10px;
   }
   
   .tabs__radio {
