@@ -1,69 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>lhu</title>
 </head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+        height: 100vh;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        background-image: url("./IMG_3311.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+
+
+    }
+
+    .c {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+
+    }
+
+    .img {
+        width: 100%;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 90px;
+        margin-bottom: 80px;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+        border: 2px solid #fff;
+        border-radius: 60px;
+    }
+    .ex{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+p{
+    width: 90%;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+    button {
+        border: none;
+        margin: 5px;
+        width: 200px;
+        padding: 8px;
+    }
+</style>
+
 <body>
-    <div class="tabs">
-        <input type="radio" class="tabs__radio" name="tabs-example" id="tab1" checked>
-        <label for="tab1" class="tabs__label">Redes</label>
-        <div class="tabs__content">
-            <div class="boton">
-                <img src="img/ChatGPT-Logo-PNG-Pic.png" class="ico" alt=""><a href="https://auth0.openai.com/u/login/identifier?state=hKFo2SA5bHdLZXA0dFdJa0NabDFqTHlScWpZSG95dklFYURFTqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEtDV0VyMXl2azMtS0x5UzVYUXdPNzcwY1ZEbVBaa3V4o2NpZNkgVGRKSWNiZTE2V29USHROOTVueXl3aDVFNHlPbzZJdEc" target="_blank" > <button>  Chat GPT 3</button></a>
-            </div>
-            <div class="boton">
-                <img src="img/ChatGPT-Logo-PNG-Pic.png" class="ico" alt=""><a href="https://auth0.openai.com/u/login/identifier?state=hKFo2SA5bHdLZXA0dFdJa0NabDFqTHlScWpZSG95dklFYURFTqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEtDV0VyMXl2azMtS0x5UzVYUXdPNzcwY1ZEbVBaa3V4o2NpZNkgVGRKSWNiZTE2V29USHROOTVueXl3aDVFNHlPbzZJdEc" target="_blank" > <button>  Chat GPT 3</button></a>
-            </div>
-            <div class="boton">
-                <img src="img/ChatGPT-Logo-PNG-Pic.png" class="ico" alt=""><a href="https://auth0.openai.com/u/login/identifier?state=hKFo2SA5bHdLZXA0dFdJa0NabDFqTHlScWpZSG95dklFYURFTqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEtDV0VyMXl2azMtS0x5UzVYUXdPNzcwY1ZEbVBaa3V4o2NpZNkgVGRKSWNiZTE2V29USHROOTVueXl3aDVFNHlPbzZJdEc" target="_blank" > <button>  Chat GPT 3</button></a>
-            </div>
-            <div class="boton">
-                <img src="img/ChatGPT-Logo-PNG-Pic.png" class="ico" alt=""><a href="https://auth0.openai.com/u/login/identifier?state=hKFo2SA5bHdLZXA0dFdJa0NabDFqTHlScWpZSG95dklFYURFTqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEtDV0VyMXl2azMtS0x5UzVYUXdPNzcwY1ZEbVBaa3V4o2NpZNkgVGRKSWNiZTE2V29USHROOTVueXl3aDVFNHlPbzZJdEc" target="_blank" > <button>  Chat GPT 3</button></a>
-            </div>
-            <div class="boton">
-                <img src="img/ChatGPT-Logo-PNG-Pic.png" class="ico" alt=""><a href="https://auth0.openai.com/u/login/identifier?state=hKFo2SA5bHdLZXA0dFdJa0NabDFqTHlScWpZSG95dklFYURFTqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEtDV0VyMXl2azMtS0x5UzVYUXdPNzcwY1ZEbVBaa3V4o2NpZNkgVGRKSWNiZTE2V29USHROOTVueXl3aDVFNHlPbzZJdEc" target="_blank" > <button>  Chat GPT 3</button></a>
-            </div>
-            <div class="boton">
-                <img src="img/ChatGPT-Logo-PNG-Pic.png" class="ico" alt=""><a href="https://auth0.openai.com/u/login/identifier?state=hKFo2SA5bHdLZXA0dFdJa0NabDFqTHlScWpZSG95dklFYURFTqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEtDV0VyMXl2azMtS0x5UzVYUXdPNzcwY1ZEbVBaa3V4o2NpZNkgVGRKSWNiZTE2V29USHROOTVueXl3aDVFNHlPbzZJdEc" target="_blank" > <button>  Chat GPT 3</button></a>
-            </div>
-            <div class="boton">
-                <img src="img/ChatGPT-Logo-PNG-Pic.png" class="ico" alt=""><a href="https://auth0.openai.com/u/login/identifier?state=hKFo2SA5bHdLZXA0dFdJa0NabDFqTHlScWpZSG95dklFYURFTqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEtDV0VyMXl2azMtS0x5UzVYUXdPNzcwY1ZEbVBaa3V4o2NpZNkgVGRKSWNiZTE2V29USHROOTVueXl3aDVFNHlPbzZJdEc" target="_blank" > <button>  Chat GPT 3</button></a>
-            </div>
-            <div class="boton">
-                <img src="img/ChatGPT-Logo-PNG-Pic.png" class="ico" alt=""><a href="https://auth0.openai.com/u/login/identifier?state=hKFo2SA5bHdLZXA0dFdJa0NabDFqTHlScWpZSG95dklFYURFTqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEtDV0VyMXl2azMtS0x5UzVYUXdPNzcwY1ZEbVBaa3V4o2NpZNkgVGRKSWNiZTE2V29USHROOTVueXl3aDVFNHlPbzZJdEc" target="_blank" > <button>  Chat GPT 3</button></a>
-            </div>
-            <div class="boton">
-                <img src="img/ChatGPT-Logo-PNG-Pic.png" class="ico" alt=""><a href="https://auth0.openai.com/u/login/identifier?state=hKFo2SA5bHdLZXA0dFdJa0NabDFqTHlScWpZSG95dklFYURFTqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEtDV0VyMXl2azMtS0x5UzVYUXdPNzcwY1ZEbVBaa3V4o2NpZNkgVGRKSWNiZTE2V29USHROOTVueXl3aDVFNHlPbzZJdEc" target="_blank" > <button>  Chat GPT 3</button></a>
-            </div>
-            <div class="boton">
-                <img src="img/ChatGPT-Logo-PNG-Pic.png" class="ico" alt=""><a href="https://auth0.openai.com/u/login/identifier?state=hKFo2SA5bHdLZXA0dFdJa0NabDFqTHlScWpZSG95dklFYURFTqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEtDV0VyMXl2azMtS0x5UzVYUXdPNzcwY1ZEbVBaa3V4o2NpZNkgVGRKSWNiZTE2V29USHROOTVueXl3aDVFNHlPbzZJdEc" target="_blank" > <button>  Chat GPT 3</button></a>
-            </div>
-            <div class="boton">
-                <img src="img/ChatGPT-Logo-PNG-Pic.png" class="ico" alt=""><a href="https://auth0.openai.com/u/login/identifier?state=hKFo2SA5bHdLZXA0dFdJa0NabDFqTHlScWpZSG95dklFYURFTqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEtDV0VyMXl2azMtS0x5UzVYUXdPNzcwY1ZEbVBaa3V4o2NpZNkgVGRKSWNiZTE2V29USHROOTVueXl3aDVFNHlPbzZJdEc" target="_blank" > <button>  Chat GPT 3</button></a>
-            </div>
-            <div class="boton">
-                <img src="img/ChatGPT-Logo-PNG-Pic.png" class="ico" alt=""><a href="https://auth0.openai.com/u/login/identifier?state=hKFo2SA5bHdLZXA0dFdJa0NabDFqTHlScWpZSG95dklFYURFTqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEtDV0VyMXl2azMtS0x5UzVYUXdPNzcwY1ZEbVBaa3V4o2NpZNkgVGRKSWNiZTE2V29USHROOTVueXl3aDVFNHlPbzZJdEc" target="_blank" > <button>  Chat GPT 3</button></a>
-            </div>
-           
+    <div class="c">
+        <div class="img">
+            <img src="WhatsApp-Image-2023-08-23-at-3.59 - copia.png" alt="">
         </div>
-        <input type="radio" class="tabs__radio" name="tabs-example" id="tab2">
-        <label for="tab2" class="tabs__label">Paginas</label>
-        <div class="tabs__content">
-            <div class="boton">
-                <img src="img/ChatGPT-Logo-PNG-Pic.png" class="ico" alt=""><a href="https://auth0.openai.com/u/login/identifier?state=hKFo2SA5bHdLZXA0dFdJa0NabDFqTHlScWpZSG95dklFYURFTqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEtDV0VyMXl2azMtS0x5UzVYUXdPNzcwY1ZEbVBaa3V4o2NpZNkgVGRKSWNiZTE2V29USHROOTVueXl3aDVFNHlPbzZJdEc" target="_blank" > <button>  Chat GPT 3</button></a>
-            </div>
-            
+        <div class="ex">
+            <p>Hola ¿Como estas?, Gracias por ese momento que
+                tuvimos y pasarla bien, Sacando fotos. <br>
+                En fin, eso es todo y que tengas un hermoso día,
+                cuando me necesites ya sabes cómo contactarme.
+                <br>
+                ¡¡¡ Saludos !!!</p>
 
         </div>
-      </div>
-
-
-
-
-    
-   
+       <a href=""></a> <button>Contacto</button>
+        <button>Ver pagina</button>
+    </div>
 </body>
+
 </html>
