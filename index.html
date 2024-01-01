@@ -47,9 +47,9 @@
         margin-bottom: 180px;
     }
 
-    img {
-        width: 160px;
-        height: 160px;
+    .imgm {
+        width: 140px;
+        height: 140px;
         border: 2px solid #ffffff;
         border-radius: 130px;
     }
@@ -78,7 +78,7 @@ p{
 <body>
     <div class="c">
         <div class="img">
-            <img src="WhatsApp-Image-2023-08-23-at-3.59 - copia.png" alt="">
+            <img onclick="logo();" class="imgm" src="WhatsApp-Image-2023-08-23-at-3.59 - copia.png" alt="">
         </div>
         <div class="ex">
             <p>Hola ¿Como estas?, Gracias por ese momento que
@@ -92,6 +92,25 @@ p{
        <a href="https://wa.me/541144382987" target="_blank"> <button>Contacto</button></a>
         <a href="https://bit.ly/lhuisruiz" target="_blank"><button>Ver pagina</button></a>
     </div>
+    <script>
+        function logo() {
+    Swal.fire({
+        imageUrl: 'https://res.cloudinary.com/lhuis/image/upload/v1700144054/lhuis/zuyqeu3dj8rtjjknghva.jpg',
+        html: '<button class="bt-2" >Lhuis Fotografo.  </button>',
+        //tamaño
+        imageWidth: 280,
+        imageHeight: 480,
+        //cerrar
+        padding: '1rem',
+        showCloseButton: true,
+        showConfirmButton: false,
+        background: 'linear-gradient(#000,#000)',
+
+
+    })
+}
+    </script>
+       <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>
